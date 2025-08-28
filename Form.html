@@ -3,25 +3,81 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=20px, initial-scale=20.0">
     <title>Document</title>
 </head>
 
 <body>
+    <h1>Registration Form</h1>
     <form action="/Action">
-        <label for="name"> Enter Name :<input type="Text" placeholder="Enter Name" id="name"></label>
-        <br>
-        <label for="name1"> Enter Date :<input type="date" placeholder="Enter Date" id="name1"></label>
-        <br>
-        <label for="name2"> Enter Time :<input type="time" placeholder="Enter Time" id="name2"></label>
-        <br>
-        <label for="name3"> Enter Number :<input type="Number" placeholder="Enter Number" id="name3"></label>
-        <br>
-        <label for="name4"> Enter Password :<input type="password" placeholder="Enter Password" id="name4"></label>
-        <br>
-        <label for="name5"> Enter Color :<input type="color" placeholder="Enter Color" id="name5"></label>
-        <br>
-        <button>Submit</button>
+        <label for="name"> Enter Your Name :
+            <input type="Text" placeholder="Enter Name" id="name"></label>
+        <br><br>
+
+        <label for="FName"></label> Enter Your Fathers Name:
+        <input type="text" Placeholder="Enter Fathers Name" id="FName"></label>
+        <br><br>
+
+        <label for="name1"> Enter Your DOB :
+            <input type="date" placeholder="Enter DOB" id="name1"></label>
+        <br><br>
+
+        <label for="name2"> Enter Time of Birth :
+            <input type="time" placeholder="Enter Time of Birth" id="name2"></label>
+        <br><br>
+
+        <label for="name3"> Enter Your Email Id :
+            <input type="email" placeholder="Enter Email Id" id="name3"></label>
+        <br><br>
+
+
+        <label for="name4"> Enter New Password :
+            <input type="password" placeholder="Enter Password" id="name4"></label>
+        <br><br>
+        <label for="Gender">Select Gender :
+            <input type="radio" value="Male" id="Male" name="gender">
+            <label for="gender">Male</label>
+            <input type="radio" value="Female" id="Female" name="gender">
+            <label for="gender">Female</label>
+            <input type="radio" value="other" id="Other" name="gender">
+            <label for="Other"> Other</label>
+            <br><br>
+
+            <label for="country">Country: </label>
+            <select name="country" id="country">
+                <option value="">--Select--</option>
+                <option value="India">India</option>
+                <option value="Pakistan">Pakistan</option>
+                <option value="Australia">Australia</option>
+                <option value="Sri Lanka">Sri Lanka</option>
+                <option value="Japan">Japan</option>
+                <option value="New Zealand">New Zealand</option>
+                <option value="Bhutan">Bhutan</option>
+                <option value="US">US</option>
+            </select>
+            <br><br>
+            <label for="state">State: </label>
+            <select name="state" id="state">
+                <option value="">--Select--</option>
+                <option value="MP">Madhya Pradesh</option>
+                <option value="CG">Chhatisgarh</option>
+                <option value="UP">Uttar Pradesh</option>
+                <option value="Bihar">Bihar</option>
+                <option value="Jharkhand">Jharkhand</option>
+                <option value="Rajsthan">Rajsthan</option>
+                <option value="Maharastra">Maharastra</option>
+                <option value="J&K">Jammu & Kashmir</option>
+            </select>
+            <br><br>
+
+            <br>
+            <label for="about">About Yourself:
+                <textarea value="about" id="about" name="about" placeholder="Write Something About Youself"
+                    id="about"></textarea>
+
+            </label>
+            <br><br>
+            <button>Submit</button>
     </form>
 </body>
 
