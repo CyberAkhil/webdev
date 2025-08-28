@@ -1,0 +1,21 @@
+h1 {
+    text-align: center;
+    text-decoration: underline;
+    line-height: 10px;
+    letter-spacing: 6px;
+    font-size: 45px;
+    color: red;
+}
+
+h2 {
+    text-align: left;
+    text-decoration: dashed;
+    line-height: 23px;
+    letter-spacing: 3px;
+    font-size: 28px;
+    color: blue;
+}
+
+p {
+    background-color: aqua;
+}
