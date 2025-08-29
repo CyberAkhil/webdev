@@ -1,0 +1,98 @@
+body {
+    font-family: "Georgia", serif;
+    text-align: center;
+    background: linear-gradient(135deg, #f9f9f6, #eaecec);
+    color: #2e3b32;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: #2c3e50;
+    font-size: 2.6rem;
+    margin-top: 25px;
+    text-shadow: 0 0 8px rgba(142, 110, 83, 0.4);
+}
+
+h2 {
+    color: #8e6e53;
+    font-size: 2rem;
+    margin: 15px 0;
+    text-shadow: 0 0 5px rgba(5, 255, 134, 0.711);
+}
+
+h3 {
+    color: #ff6200;
+    font-size: 1.5rem;
+    margin: 12px 0;
+    text-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
+}
+
+p {
+    font-size: 1.15rem;
+    margin: 8px 0;
+    color: #ff5500;
+}
+
+hr {
+    border: none;
+    height: 3px;
+    background: linear-gradient(to right, #ff6200, #33ff00, #1100ff);
+    margin: 20px auto;
+    width: 75%;
+    border-radius: 50px;
+    box-shadow: 0 0 6px rgba(212, 175, 55, 0.6);
+}
+
+img {
+    border-radius: 18px;
+    margin: 20px 0;
+    box-shadow: 0px 6px 18px rgba(46, 59, 50, 0.4),
+        0px 0px 20px rgba(212, 175, 55, 0.5);
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+img:hover {
+    transform: scale(1.04);
+    box-shadow: 0px 8px 25px rgba(46, 59, 50, 0.6),
+        0px 0px 25px rgba(212, 175, 55, 0.7);
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    font-size: 1.1rem;
+    margin: 6px 0;
+    color: #37493d;
+}
+
+#Lower {
+    color: #2c3e50;
+    font-weight: bold;
+    font-style: italic;
+    text-shadow: 0 0 6px rgba(212, 175, 55, 0.7);
+}
+
+h3:last-child {
+    background: linear-gradient(to right, #bdee1e, #7cd127, #6d5fef);
+    padding: 12px 20px;
+    border-radius: 14px;
+    color: #fffef8;
+    display: inline-block;
+    font-weight: 600;
+    box-shadow: 0 0 12px rgba(255, 64, 11, 0.6);
+    animation: softGlow 3s infinite alternate;
+}
+
+@keyframes softGlow {
+    from {
+        box-shadow: 0 0 10px rgba(212, 175, 55, 0.4);
+    }
+
+    to {
+        box-shadow: 0 0 18px rgba(212, 175, 55, 0.8);
+    }
+}

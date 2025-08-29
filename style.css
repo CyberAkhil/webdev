@@ -8,14 +8,26 @@ h1 {
 }
 
 h2 {
-    text-align: left;
+    text-align: center;
     text-decoration: dashed;
     line-height: 23px;
     letter-spacing: 3px;
     font-size: 28px;
-    color: blue;
+    color: black;
 }
 
 p {
     background-color: aqua;
+}
+
+li {
+    text-align: center;
+    color: red;
+
+
+}
+
+
+body {
+    text-align: center;
 }
